@@ -1,0 +1,49 @@
+@charset "utf-8";
+/* CSS Document */
+#content {
+	background-color:#FBFBFB;
+}
+
+.commented {
+	color:#D7D7D7;	
+}
+
+.marked {
+	color:red;	
+	font-weight:bold;
+}
+
+table {
+	font-size:14px;
+	font-family:Consolas, monospace, '微軟正黑體';
+}
+
+.tabTable {
+	font-family:monospace;
+	line-height:10px;
+}
+
+#song {
+	font-size:30px;
+	font-weight:bold;
+}
+
+.key, .capo {
+	background-color: #ECECEC;
+}
+
+.current {
+	background-color: #00FFFF;
+}
+
+.current:hover, .key:hover, .capo:hover {
+    background-color: #00FF00;
+}
+
+.current:active, .key:active, .capo:active {
+	background-color: #0000FF;
+}
+
+.paragraph {
+	border-right:solid #ECECEC;
+}
